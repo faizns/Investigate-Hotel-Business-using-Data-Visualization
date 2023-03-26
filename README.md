@@ -1,11 +1,11 @@
-# **Investigate Hotel Business using Data Visualization**
+# 🏬 **Investigate Hotel Business using Data Visualization**
+<br>
 
 **Tool** : Jupyter Notebook <br>
 **Programming Language** : Python <br>
 **Libraries** : Pandas, NumPy <br>
 **Visualization** : Matplotlib, Seaborn <br>
 **Dataset** : Disediakan oleh Rakamin Academy - [Hotel Booking Data]() <br>
-<br>
 <br>
 
 ----
@@ -54,5 +54,17 @@ Data anomali atau data yang tidak diperlukan | - Terdapat nilai negatif dan outl
 
 ---
 
-## 📂 STAGE 2: Data Analysing
+## 📂 STAGE 2: Data Analysis
 
+### 1. Monthly Hotel Booking Analysis Based on Hotel Type
+
+### 2. Impact Analysis of Stay Duration on Hotel Bookings Cancellation Rates
+
+### 3. Impact Analysis of Lead Time on Hotel Bookings Cancellation Rates
+
+<br>
+<br>
+
+---
+
+## 📂 STAGE 3: Summary and Recommendation
