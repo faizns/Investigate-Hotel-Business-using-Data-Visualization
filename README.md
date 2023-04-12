@@ -5,7 +5,23 @@
 **Programming Language** : Python <br>
 **Libraries** : Pandas, NumPy <br>
 **Visualization** : Matplotlib, Seaborn <br>
-**Dataset** : Disediakan oleh Rakamin Academy - [Hotel Booking Data]() <br>
+**Dataset** : Disediakan oleh Rakamin Academy <br>
+<br>
+
+**Table of Contents**
+- [STAGE 0: Problem Statement](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#-stage-0:-problem-statement)
+    - [Introduction](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#introduction)
+    - [Business Questions](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#business-questions)
+    - [Objective](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#objective)
+- [STAGE 1: Data Preprocessing](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#-stage-1:-data-preprocessing)
+    - [Data Overview](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#data-overview)
+    - [Data Assessment](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#data-assessment)
+- [STAGE 2: Data Analysis](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#-stage-2:-data-analysis)
+    - [Monthly Hotel Booking Analysis Based on Hotel Type](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#monthly-hotel-booking-analysis-based-on-hotel-type)
+    - [Impact Analysis of Stay Duration on Hotel Bookings Cancellation Rates](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#impact-analysis-of-stay-duration-on-hotel-bookings-cancellation-rates)
+    - [Impact Analysis of Lead Time on Hotel Bookings Cancellation Rates](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#impact-analysis-of-lead-time-on-hotel-bookings-cancellation-rates)
+- [STAGE 3: Summary and Recommendations](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#-stage-3:-summary-and-recommendations)<br>
+<br>
 <br>
 
 ----
@@ -29,7 +45,7 @@ Membuat visualisasi berbasis data sebagai insight bagi bisnis hotel
 
 ---
 
-## 📂 STAGE 1: Data Preprocessing
+## 📂 **STAGE 1: Data Preprocessing**
 
 ### Data Overview
 Dataset terdiri dari 29 kolom dan 119390 baris dengan periode tahun 2017 - 2019.
@@ -53,7 +69,7 @@ Data anomali atau data yang tidak diperlukan | - Terdapat nilai negatif dan outl
 
 ---
 
-## 📂 STAGE 2: Data Analysis
+## 📂 **STAGE 2: Data Analysis**
 ### 1. Monthly Hotel Booking Analysis Based on Hotel Type
 Analisis ini akan dilakukan untuk mengatahui tren pemesanan pada setiap jenis hotel. Analisis ini dapat membantu perusahaan **untuk lebih memahami pasar dan kebutuhan pelanggan mereka, serta memungkinkan mereka untuk dapat meningkatkan efisiensi operasional dan mengoptimalkan revenue**.
 
@@ -116,7 +132,7 @@ Mengapa semakin lama durasi menginap mengakibatkan tingkat pembatalan bertambah 
 
 ### 3. Impact Analysis of Lead Time on Hotel Bookings Cancellation Rates
 
-
+Analisis dilakukan untuk mengetahui korelasi antara pembatalan pesanan dengan *lead time*. *Lead time* adalah masa tunggu atau jarak waktu pemesanan hotel hingga waktu kedatangan.
 
 <p align="center">
     <kbd><img width="1000" alt="tren lead" src="https://user-images.githubusercontent.com/115857221/230551207-aa417f83-5979-4bc6-a615-e2f10e835b26.png"></kbd> <br>
@@ -124,9 +140,58 @@ Mengapa semakin lama durasi menginap mengakibatkan tingkat pembatalan bertambah 
 </p>
 <br>
 
+Pembatalan pemesanan **terendah** pada kedua tipe hotel terjadi pada *lead time* **kurang dari satu bulan**. Pembatalan **tertinggi hingga 60% terjadi pada City Hotel dengan *lead time* 10 bulan hingga 1 tahunan**. Sedangkan tren **Resort Hotel** memiliki tingkat pembatalan yang cukup **stagnan** dengan nilai **rata-rata 40%**.
+
+City Hotel yang berada di pusat kota dan sering digunakan untuk acara atau bisnis yang terjadwal jauh-jauh hari, rentan terhadap pembatalan karena perubahan jadwal atau rencana pelanggan. Selain itu City Hotel mungkin menawarkan tarif kamar yang lebih rendah daripada Resort Hotel, sehingga pelanggan lebih mudah mebatalkan pesanannya karena mereka menemukan penawaran yang lebih baik ditempat lain.
+
+Resort Hotel mungkin lebih banyak digunakan untuk liburan atau rekreasi, sehingga pelanggan cenderung lebih terikat pada jadwal mereka dan lebih sedikit perubahan. Selain itu, Resort Hotel yang mungkin menargetkan pelanggan yang mencari pengalaman yang lebih eksklusif, mungkin lebih mampu mempertahankan tingkat pesanan mereka meskipun ada penawaran yang lebih baik di tempat lain.
+
 <br>
 <br>
 
 ---
 
-## 📂 STAGE 3: Summary and Recommendation
+## 📂 **STAGE 3: Summary and Recommendations**
+
+1. Secara keseluruhan City Hotel paling banyak dipesan oleh pelanggan. Pada kedua tipe hotel, peningkatan pelanggan seccara signifikan terjadi pada musim-musim liburan yaitu Mei-Juli dan Oktober-Desember. Rekomendasi bisnis:
+
+    - Perusahaan dapat mengoptimalkan fasilitas dan pelayanan di Resort Hotel, karena Resort Hotel memiliki tingkat pemesanan yang lebih rendah dibandingkan City Hotel sehingga pelanggan lebih tertarik untuk memesan kamar di sana. Misalnya dengan menambah fasilitas seperti spa, gym, atau kolam renang, serta memberikan pelayanan yang lebih personal dan ramah kepada pelanggan.
+    - Perusahaan juga dapat memaksimalkan strategi City Hotel, karena banyak diminati oleh pelanggan sehingga lebih profitable. Perusahaan dapat menyediakan layanan tambahan untuk bisnis, seperti ruang aula atau paket untuk pertemuan seperti seminar dan lain sebaginya.
+    - Meningkatkan promosi pada saat musim liburan, misalnya dengan memberikan diskon khusus untuk tamu yang memesan kamar dalam jumlah tertentu atau memberikan paket liburan yang menarik. Perusahaan juga dapat mempertimbangkan untuk menerapkan non-refunable untuk menghindari pembatalan pemesanan.
+    - Untuk waktu pada musim yang sepi, perusahaan dapat menggabungkan tarif fleksibel dan non-refunable. Atau dapat memberikan diskon khusus namun non-refunable. <br>
+    <br>
+
+2. Tingkat pembatalan akan semakin tinggi seiring dengan lama durasi menginap yang dipesan pada kedua tipe hotel. Cancellation rate pada City Hotel meningkat secara signifikan dengan presentase terendah pada durasi kurang dari satu minggu. Resort Hotel juga cenderung mengalami peningkatan cancellation rate namun lebih stagnan dan pada durasi menginap kurang dari 2 minggu dan lebih dari 1 bulan cenderung lebih rendah cancellation rate-nya. Rekomendasi bisnis:
+
+    - Perusahaan dapat memastikan memiliki kebijakan terkait peraturan pembatalan pesanan yang solid. Hal tersebut untuk melindungi perusahaan dari dampak yang ditimbulkan, seperti revenue loss. Perusahaan dapat memberikan atau menjelaskan syarat dan ketentuan sebelum mereka melakukan pemesanan baik dalam pemesanan online maupun offline. Hal ini dapat mencakup informasi tentang pengembalian uang, biaya pembatalan, dll. Kebijakan pembatalan yang lebih ketat dapat memberikan dampak yang besar. Selain itu, hal ini juga dapat mengurangi pemesanan yang curang. 
+    - Malakukan strategi harga dan membatasi jumlah bermalam. Membatasi jumlah malam pada tarif fleksibel pada rentang satu minggu. Selain itu, hanya menyediakan tarif non-refunable untuk durasi menginap yang lebih lama. Hal tersebut dilakukan untuk dapat meningkatkan pendapatan dan mengurangi risiko dari pembatalan yang tidak diinginkan.
+    - Untuk pencegahan pembatalan lainnya perusahaan dapat meningkatkan pelayanan atau memberikan layanan pra-penginap yang baik guna meningkatkan kepuasan pelanggan sehingga akan mengurangi kecenderungan mereka untuk membatalkan pesanannya.<br>
+    <br>
+
+3. Pembatalan pemesanan terendah pada kedua tipe hotel terjadi pada *lead time* kurang dari satu bulan. City Hotel memiliki *cancelation rate* tertinggi pada *lead time* 1 tahunan.
+
+    - Kedua jenis hotel dapat mempertimbangkan untuk mengurangi lead time. Dengan membatasi jangka waktu pemesanan yang tersedia, hotel dapat memastikan bahwa pelanggan hanya memesan ketika mereka benar-benar yakin akan menginap di hotel tersebut, sehingga mengurangi kemungkinan pembatalan.
+    - City Hotel juga dapat mempertimbangkan menaikkan tarif kamar mereka untuk memperbaiki margin keuntungan mereka dan menurunkan tingkat pembatalan. Dengan menaikkan harga kamar, pelanggan mungkin lebih cenderung mempertimbangkan kembali sebelum membatalkan pesanan mereka.
+    - Mengirimkan pengingat melalui email tentang pemesanan mereka. Hal ini dilakukan agar tetap terhubung dan menunjukkan tingkat pelayanan perusahaan. Perusahaan dapat menginformasikan tenggat waktu akan segera tiba dengan kebijakan pembatalannya.
+    - Alih-alih membatalkan pesanan, perusahaan dapat menawarkan penjadwalan ulang dan menjual kamar yang masih memiliki lead time yang masih lama. <br>
+    <br>
+    <br>
+    
+---
+**Source :**<br>
+
+Delgado, Pablo. "Cancellations on Booking.com: 104% More than on the Hotel Website. Expedia, 31% More." Mirai, https://www.mirai.com/blog/cancellations-on-booking-com-104-more-than-on-the-hotel-website-expedia-31-more/. 
+
+Delgado, Pablo. "Cancellations shooting up: implications, costs and how to reduce them". Mirai, https://www.mirai.com/blog/cancellations-shooting-up-implications-costs-and-how-to-reduce-them/
+
+LOEB, Tony. "Where do Cancellations come from?". Experience Hotel Blog, https://blog.experience-hotel.com/where-do-cancellations-come-from/.
+
+Travelline. "5 ways to decrease cancellation rate and retain customer loyalty". Travellin, https://www.travelline.pro/blog/5-ways-to-decrease-cancellation-rate-and-retain-customer-loyalty/
+
+Verot, Benjamin. "Everything you Need to Know About Hotel Cancellations". HotelMinder. https://www.hotelminder.com/everything-you-need-to-know-about-hotel-cancellations.
+
+Verot, Benjamin. "8 Tips to Reduce Last Minute Hotel Cancellations and No Shows". HotelMinder. https://www.hotelminder.com/8-tips-to-reduce-last-minute-hotel-cancellations-and-no-shows
+
+
+
+
