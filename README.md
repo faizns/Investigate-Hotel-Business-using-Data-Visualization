@@ -9,18 +9,18 @@
 <br>
 
 **Table of Contents**
-- [STAGE 0: Problem Statement](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#-stage-0:-problem-statement)
-    - [Introduction](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#introduction)
-    - [Business Questions](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#business-questions)
-    - [Objective](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#objective)
-- [STAGE 1: Data Preprocessing](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#-stage-1:-data-preprocessing)
-    - [Data Overview](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#data-overview)
-    - [Data Assessment](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#data-assessment)
-- [STAGE 2: Data Analysis](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#-stage-2:-data-analysis)
-    - [Monthly Hotel Booking Analysis Based on Hotel Type](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#monthly-hotel-booking-analysis-based-on-hotel-type)
-    - [Impact Analysis of Stay Duration on Hotel Bookings Cancellation Rates](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#impact-analysis-of-stay-duration-on-hotel-bookings-cancellation-rates)
-    - [Impact Analysis of Lead Time on Hotel Bookings Cancellation Rates](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#impact-analysis-of-lead-time-on-hotel-bookings-cancellation-rates)
-- [STAGE 3: Summary and Recommendations](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization/blob/main/README.md#-stage-3:-summary-and-recommendations)<br>
+- [STAGE 0: Problem Statement](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization#-stage-0:-problem-statement)
+    - [Introduction](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization#introduction)
+    - [Business Questions](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization#business-questions)
+    - [Objective](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization#objective)
+- [STAGE 1: Data Preprocessing](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization#-stage-1:-data-preprocessing)
+    - [Data Overview](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization#data-overview)
+    - [Data Assessment](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization#data-assessment)
+- [STAGE 2: Data Analysis](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization#-stage-2:-data-analysis)
+    - [Monthly Hotel Booking Analysis Based on Hotel Type](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization#monthly-hotel-booking-analysis-based-on-hotel-type)
+    - [Impact Analysis of Stay Duration on Hotel Bookings Cancellation Rates](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization#impact-analysis-of-stay-duration-on-hotel-bookings-cancellation-rates)
+    - [Impact Analysis of Lead Time on Hotel Bookings Cancellation Rates](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization#impact-analysis-of-lead-time-on-hotel-bookings-cancellation-rates)
+- [STAGE 3: Summary and Recommendations](https://github.com/faizns/Investigate-Hotel-Business-using-Data-Visualization#-stage-3:-summary-and-recommendations)<br>
 <br>
 <br>
 
